@@ -60,7 +60,6 @@ const CartDrawer = ({ onClose }: Props) => {
               </div>
               <div className="flex gap-2">
                 <a href="/checkout" onClick={onClose} className="flex-1 text-center py-2 bg-blue-600 text-white rounded">Checkout</a>
-                <button onClick={() => { /* future: continue shopping */ }} className="px-4 py-2 border rounded">Continue</button>
               </div>
             </div>
           </>
